@@ -47,20 +47,56 @@
         <!-- Bootstrap Container -->
         <div class="container debug">
 
-            <div class="portfolio-section-content">
+            <div class="contact-section-content">
                 <!-- Row 1 -->
                 <div class="row debug">
                     <div class="col-md-12 debug">
-
-
+                        <h2>Contact</h2>
+                        <hr>
                     </div>
                 </div>
 
                 <!-- Row 2 -->
-                <div class="row debug">
-                    <div class"col-md-12 debug">
-
-                
+                <div class="row w-100 debug">
+                    <div class="col-sm-12 w-100 debug">
+                        <form>  
+                            <fieldset>
+                                <legend hidden>Contact Details</legend>
+        
+                                <div class="form-group row">
+                                    <label for="contact_name" class="col-sm-2 col-form-label">
+                                        <span>Name</span>
+                                    </label>
+                                    <div class="col-sm-10">
+                                        <input id="contact_name" class="form-control" type="text" name="fullname" placeholder="John Smith" maxlength="100" required autofocus/>
+                                    </div>
+                                </div>
+        
+                                <div class="form-group row">
+                                    <label for="contact_email" class="col-sm-2 col-form-label">
+                                        <span>Email</span>
+                                    </label>
+                                    <div class="col-sm-10">
+                                        <input id="contact_email" class="form-control-plaintext" type="email" name="email" placeholder="example@gmail.com" maxlength="100" required/>
+                                    </div>
+                                </div>
+        
+                                <div class="form-group row">
+                                    <label for="contact_message" class="col-sm-2 col-form-label">
+                                        <span>Message</span>
+                                    </label>
+                                    <div class="col-sm-10">
+                                        <textarea id="contact_message" class="form-control" name="message" rows="10" cols="50" maxlength="500"></textarea>
+                                    </div>
+                                </div>
+        
+                                <div class="form-group row">
+                                    <div class="col-sm-10">
+                                        <input type="submit" value="Submit" class="btn btn-primary">
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
                     </div>
                 </div>
             </div>

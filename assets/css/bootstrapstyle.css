@@ -124,7 +124,7 @@ max-width: 960px;
 .main-header .logo {
 /*    float: left; */
     background: #4aaaa5;
-    color: #ffffff;
+    color: #ffffff; 
     padding: 10px 20px 10px 20px; 
 
 /*    text-decoration: none;
@@ -212,3 +212,113 @@ max-width: 960px;
  /*   max-width: 250px;
     max-height: 175px; */
 }
+
+/*==========================================
+    Portfolio Section
+========================================== */
+
+.portfolio-section-content .banner-container{
+    position:relative;
+    float: left;
+
+    text-align: center;
+/*    margin: 25px 50px 25px 0px; */
+}
+
+.portfolio-section-content .banner-container img {
+    vertical-align:top;
+}
+
+.portfolio-section-content .banner-text{
+    position:absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ 
+    background: #4aaaa5;
+    color: white;
+ /*   padding: 10px 0px; */
+    width: 100%;
+}
+
+.portfolio-section-content div.banner-container img{
+    width: 200px;
+    height: 200px;
+}
+
+/* force to only 2 projects per line - but I think this is due to my image dimensions */
+/* and shouldn't be needed */
+/*
+div[id^="project"]:nth-child(odd) { 
+    clear: left;
+}
+*/
+
+.clearfix:after { 
+    content: ""; 
+    visibility: hidden; 
+    display: block; 
+    clear: both;
+ }
+  
+/* For IE 6/7 (trigger hasLayout) */
+.clearfix {
+    zoom:1;
+}
+
+
+/*========================================== 
+    Contact Section
+========================================== */
+
+.contact-section-content fieldset {
+    border: 0;
+}
+/*
+.contact-section-content legend {
+    display: none;
+}
+*/
+.contact-section-content input[type="submit"] {
+   /* padding: 10px 25px 10px 25px;*/
+/*    margin-top: 10px;*/
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border: 0;
+}
+/*
+.contact-section-content form {
+    margin-top: 6px;
+}
+*/
+
+.contact-section-content input:not([type="submit"]) {
+ /*   width: 90%; */
+/*    padding: 10px; */
+    border: lightgrey 1px solid;
+}
+
+.contact-section-content textarea {
+/*    width: 90%; */
+/*    padding: 5px; */
+    border-color: lightgrey;
+}
+/*
+.contact-section-content .form-item {
+    padding-top: 10px; 
+}
+*/
+
+::-webkit-input-placeholder {   /* Chrome/Opera/Safari */
+    color: darkgrey;
+}
+::-moz-placeholder {            /* Firefox 19+ */
+    color: darkgrey;
+}
+:-ms-input-placeholder {        /* IE 10+ */
+    color: darkgrey;
+}
+:-moz-placeholder {             /* Firefox 18- */
+    color: darkgrey;
+}
+
