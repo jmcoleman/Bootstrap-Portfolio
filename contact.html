@@ -7,13 +7,13 @@
         <!-- stylesheets -->
         <!--link rel="stylesheet" type="text/css" href="assets/css/reset.css"/--> 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="assets/css/bootstrapstyle.css"/>
+        <!--link rel="stylesheet" type="text/css" href="assets/css/bootstrapstyle.css"/-->
+        <link rel="stylesheet" type="text/css" href="assets/css/sticky-footer-navbar.css"/>
 
         <title>Jenni Coleman | Bootstrap Portfolio</title>
-    </head>
-    <body id="contact-page">
 
-    <!-- Header -->
+    </head>
+    <body>
 
         <!-- Navbar -->
         <header>
@@ -40,16 +40,12 @@
             </nav>
         </header>
 
-        
-    <!-- Main Content -->
-    <div class="main-content">
-
         <!-- Bootstrap Container -->
-        <div class="container debug">
+        <div class="container">
 
             <div class="contact-section-content">
                 <!-- Row 1 -->
-                <div class="row debug">
+                <div class="row">
                     <div class="col-md-12 debug">
                         <h2>Contact</h2>
                         <hr>
@@ -77,7 +73,7 @@
                                         <span>Email</span>
                                     </label>
                                     <div class="col-sm-10">
-                                        <input id="contact_email" class="form-control-plaintext" type="email" name="email" placeholder="example@gmail.com" maxlength="100" required/>
+                                        <input id="contact_email" class="form-control" type="email" name="email" placeholder="example@gmail.com" maxlength="100" required/>
                                     </div>
                                 </div>
         
@@ -100,51 +96,21 @@
                     </div>
                 </div>
             </div>
-            
+                
         </div>
-
-    </div>
-
-            <!-- Original Main Content -->
-        <!--div class="main-content">
-            <section class="contact-section-content">
-                <h2>Contact</h2>
-                <hr>
-
-                <form>  
-                    <fieldset>
-                        <legend>Contact Details</legend>
-
-                        <div class="form-item">
-                            <label for="contact_name">
-                                <span>Name</span>
-                            </label><br>
-                            <input id="contact_name" type="text" name="fullname" placeholder="John Smith" maxlength="100" required autofocus/><br>
-                        </div>
-
-                        <div class="form-item">
-                            <label for="contact_email">
-                                <span>Email</span>
-                            </label><br>
-                            <input id="contact_email" type="email" name="email" placeholder="example@gmail.com" maxlength="100" required/><br>
-                        </div>
-
-                        <div class="form-item">
-                            <label for="contact_message">
-                                <span>Message</span>
-                            </label><br>
-                            <textarea id="contact_message" name="message" rows="10" cols="50" maxlength="500"></textarea><br>
-                        </div>
-
-                        <input type="submit" value="Submit">
-                    </fieldset>
-                    </form>
-            </section>
-        </div-->
-
-        <footer>
-            <small>Copyright &copy;</small>
+    
+        <!-- footer -->
+        <footer class="footer container-fluid">
+            <nav class="navbar-fixed-bottom">
+                <span class="text-muted">Copyright &copy;</span>
+            </nav>
         </footer>
 
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
     </body>
 </html>
+

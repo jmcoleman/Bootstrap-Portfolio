@@ -122,27 +122,27 @@ footer {
     font-weight: 700;
 }
 
-.navbar {
+.jmc-nav {
     position: relative;
     top: 25px;
     float: right;
     margin: 0px 0px;
 }
 
-.navbar ul {
+.jmc-nav ul {
     list-style: none;
 }
 
-.navbar li {
+.jmc-nav li {
     display: inline-block;
     padding: 0px 5px 0px 5px;
 }
 
-.navbar * li:last-child {
+.jmc-nav * li:last-child {
     padding-right: 0px;
 }
 
-.navbar a {
+.jmc-nav a {
     text-decoration: none;
     padding: 15px;
     cursor: pointer; 
@@ -153,7 +153,7 @@ footer {
     transition-timing-function: ease;
 }
 
-.navbar a:hover {
+.jmc-nav a:hover {
     background-color: #4aaaa5;
     color: white;
     /*border:1px solid darkgrey; */
@@ -161,7 +161,7 @@ footer {
 }
 
 /* makes the size of the button change so not using
-.navbar a:active {
+.jmc-nav a:active {
     color: #84F6F1;
     font-weight: bolder;
 }
